@@ -3,3 +3,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+:root{
+	--lightBlue:#A7Cdbd;
+	--lightGreen:#bbe1c3;
+	--brown:#91785d;
+	--darkGreen:#869d7a;
+}
