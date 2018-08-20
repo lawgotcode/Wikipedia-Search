@@ -5,8 +5,76 @@
 }
 
 :root{
-	--lightBlue:#A7Cdbd;
+	--lightBlue:#A7cddb;
 	--lightGreen:#bbe1c3;
 	--brown:#91785d;
 	--darkGreen:#869d7a;
 }
+
+
+
+body{
+	display: grid;
+	grid-template-columns: 80%;
+	justify-content: center;
+	margin-top: 3rem;
+	text-align: center;
+	background: linear-gradient(45deg, red, blue);
+  }
+
+   .main-search {
+   	width: 100%;
+   	background: transparent;
+   	border: none;
+   	border-bottom: 0.25rem solid;
+   	font-size: 3rem;
+   	margin: 1rem 0;
+   	padding: 0.5rem 0;
+   	color:var(--brown);
+   	text-transform: uppercase;
+   	outline: none;
+   }
+
+   .main-btn {
+   	display: block;
+   	width: 50%;
+   	margin: 0 auto;
+   	font-size: 2rem;
+   	border-radius: 0.25rem;
+   	text-transform: capitalize;
+   	background: transparent;
+   	color: orange;
+   	border: 0.15rem solid;
+    transition: all 0.3s linear
+   }
+
+   .main-btn:hover{
+   	background: var(--brown);
+   	color: var(--lightBlue);
+   }
+
+   .wait-icon{
+   	display: none;
+
+   }
+
+   .search-item{
+   	text-align: left;
+   	list-style-type: none;
+   	border:0.05rem solid;
+   	padding: 1rem;
+   	margin: 1rem 0;
+   	background: var(--lightBlue);
+   	border-radius: 0.5rem;
+   	box-shadow: 0px 10px 10px var(--darkGreen);
+   }
+
+   .search-item__title{
+   	text-transform: uppercase;
+   	letter-spacing: 0.4rem;
+
+   }
+
+   .search-item__text{
+   	margin: 0.5rem 0;
+   }
